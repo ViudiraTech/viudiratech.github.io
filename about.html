@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="JavaScript/about-main.js"></script>
+<title>ViudiraTech中国-关于</title>
+<style>
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+}
+
+ul {
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left:-8px;
+    background: rgba(255, 255, 255, 0.418);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0000001e;
+}
+
+.active {
+    background-color: #87CEFA;
+}
+
+.card {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.card{
+  backdrop-filter: blur(6px) saturate(161%);
+  -webkit-backdrop-filter: blur(6px) saturate(161%);
+  background-color: rgba(255,254,161,0.33);
+  border-radius: 21px;
+  border: 1px solid rgba(209, 213, 219, 0.3)
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+
+div{
+    margin: 5% auto;
+}
+
+p{
+    font-size: 1.3rem;  
+}
+
+.demo1 {
+	border-left: 2px solid #33B8EC;
+	border-top: 2px solid #33B8EC;
+	border-right: 3px solid #000;
+	border-bottom: 3px solid #000;  
+}
+
+.to {
+  text-shadow: 1px 1px 1px black,-1px -1px 1px white;
+}
+
+  .footer{
+        height: 150px;
+        text-align: center;
+        font-size: 16px;
+        padding: 0px 100px;
+        position: relative;
+    }
+    .footer{
+      cursor: pointer;
+    }
+    .copyright{
+      font-size: 12px;
+    }
+    .info{
+      font-size: 14px;
+      color: #72767b;
+      line-height: 25px;
+    }
+    .footer .scroll{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border:2px solid #eaeaea;
+      /* background-color: rgba(216, 16, 109,0.6); */
+      position: absolute;
+      left: 5%;
+      top: -25px;
+      z-index: 10;
+      animation: scrollA infinite 20s linear alternate;
+    }
+    @keyframes scrollA {
+      0% {left: 5%;transform: rotate(180deg);};
+      10% {left: 5%;transform: rotate(270deg);}
+      20% {left: 5%;transform: rotate(450deg);}
+      25% {left: 10%;transform: rotate(540deg);}
+      30% {left: 20%;transform: rotate(720deg);}
+      35% {left: 30%;transform: rotate(900deg);}
+      40% {left: 40%;transform: rotate(1080deg);}
+      45% {left: 50%;transform: rotate(1260deg);}
+      50% {left: 60%;transform: rotate(1440deg);}
+      55% {left: 70%;transform: rotate(1620deg);}
+      60% {left: 80%;transform: rotate(1800deg);}
+      80% {left: 90%;transform: rotate(2610deg);}
+      90% {left: 90%;transform: rotate(2340deg);}
+      100% {left: 90%;transform: rotate(2520deg);}
+    }
+
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active demo1 to">ViudiraTech</a></li>
+    <li><a href="#about-microfish">社区和MicroFish初期</a></li>
+    <li><a href="#about-MaplePhantom">MaplePhantom初期</a></li>
+    <li><a href="#about-ViudiraTech">社区的发展</a></li>
+    <li><a href="#about-webhigh">网站的高潮时期</a></li>
+    <li><a href="#about-highproject">唯一活跃的项目</a></li>
+    <li><a href="#about-schoolhard">MaplePhantom学业繁忙</a></li>
+    <li><a href="index.html">回去</a></li>
+</ul>
+
+<div class="card demo1">
+    <h3 class="card-title">关于社区和经历：</h3>
+	<a name="about-microfish" style="font-size: 1.6rem;"><strong>社区和MicroFish初期：</strong></a>
+	<p>ViudiraTech社区成立于2020年10月， 由MicroFish一人创建。初期时只有MicroFish一人学计算机技术，到了后期学会开发一些小玩意。2021年
+	秋季，MicroFish搭建了自己的第一个博客。<p>
+	<div></div>
+	
+	<a name="about-MaplePhantom" style="font-size: 1.6rem;"><strong>MaplePhantom初期：</strong></a>
+	<p>在同一个城市的MaplePhantom也很爱搞计算机，2021年冬天，MaplePhantom也建造的自己的网站。当时的MaplePhantom也只是自己一个人，但是
+	名声比MicroFish高很多。<p>
+	<div></div>
+	
+	<a name="about-ViudiraTech" style="font-size: 1.6rem;"><strong>社区的发展：</strong></a>
+	<p>2022年5月18日，在学校食堂打饭的途中，MaplePhantom向MicroFish介绍起了自己的网站，随后两人便开始聊天，谈论了关于计算机专业的知识。
+	6月12日，MicroFish的网站被迁移到了MaplePhantom的服务器上面，MaplePhantom正式进入了ViudiraTech社区。9月8日，因疫情停课，MicroFish
+	开发了众多的软件，但是因为数据库被烧毁，所保留的软件所剩无几。同时期，社区进入了很多人，开始面向大众化。9月20日，操作系统项目开始成立。同时，
+	MaplePhantom开发出了第五版网页，也是社区能挖出的最早的正式版官网<a href="https://viudiratech.sdos.top/">（-进去瞧瞧-）</a>从此开始迎来社区网站的高潮时期。
+	到最后基于Github服务器托管，开发出了你现在看到的这个网站。<p>
+	<div></div>
+	
+	<a name="about-webhigh" style="font-size: 1.6rem;"><strong>网站的高潮时期：</strong></a>
+	<p>第五版网站开创的ViudiraTech社区的新时代，一大堆功能引入了网站。在此期间，MaplePhantom引入了导航网、行程码纪念版等功能。MicroFish增加了
+	资源站和论坛。2022-2023上半年之间迎来了低谷期，大部分人摆烂。2023年8月22日，第一次自主研发的两个动态网站上线，国际画图和像素大战。</p>
+	<div></div>
+	
+	<a name="about-highproject" style="font-size: 1.6rem;"><strong>唯一活跃的项目：</strong></a>
+	<p>每一个程序员的梦想，大概是开发一套属于自己的操作系统吧，但是很多人都失败了。ViudiraTech社区的MicroFish凭借自己优越的汇编基础，开发了一套
+	操作系统，名叫“ViudiraOS 0.0.1”。一开始MicroFish并不看好这个东西，只是拿来玩玩。2023年4月30日，借鉴了“MikeOS”的底层，开发出了第一个真正意义的操作系统。
+	“VimdropOS 0.1.0”。并且短时间内更新了0.5.0和1.0.0的版本。大概是2023年的六月份左右，准备迎来大变革。阅读《30天自制操作系统》，并且各种找资料，了解C语言指针，
+	花费半年时间，重构并写出了里程碑意义的系统“VimdropOS-Next”并在2024年的元旦发布。开发故事仍在继续。</p>
+	<div></div>
+	
+	<a name="about-schoolhard" style="font-size: 1.6rem;"><strong>MaplePhantom学业繁忙：</strong></a>
+	<p>当然，社区的很多人因为学业问题，暂时把社区里的问题放一放，其中就包括MaplePhantom，MaplePhantom学业繁忙并且把服务器的权限交给了我。社区里基本上就只有MicroFish活跃了。</p>
+</div>
+
+<div class='footer'>
+      <span class="scroll"></span>
+      <!-- <span id="star-five" class="scroll"></span> -->
+      <el-divider></el-divider>
+      <span>网站中的所有商标等均由ViudiraTech所有</span>
+      <el-divider direction="vertical"></el-divider>
+      <br/>
+      <br/>
+      <span class="copyright">Copyright 2020-2024 ViudiraTech,保留所有权利.</span>
+      <el-drawer
+        :visible.sync="drawer"
+        :direction="direction"
+        :before-close="handleClose">
+        <p class='info'>
+          <i class="el-icon-phone"></i>需要更多信息请咨询我们<br/>
+          <i class="el-icon-message"></i>每个计算机科技爱好者的聚集之地<br/>
+        </p>
+      </el-drawer>
+	</div>
+</body>
+</html>
