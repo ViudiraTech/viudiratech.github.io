@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="./rec/favicon.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="JavaScript/products-main.js"></script>
+<title>ViudiraTech中国-产品</title>
+<style>
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+}
+
+ul {
+    z-index:999;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left:-8px;
+    background: rgba(255, 255, 255, 0.418);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 12px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0000001e;
+}
+
+.active {
+    background-color: #87CEFA;
+}
+
+.card {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+	background: rgba(255, 255, 255, .7);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.card{
+  backdrop-filter: blur(6px) saturate(161%);
+  -webkit-backdrop-filter: blur(6px) saturate(161%);
+  background-color: rgba(255,254,161,0.33);
+  border-radius: 21px;
+  border: 1px solid rgba(209, 213, 219, 0.3)
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #4d4ae8;
+  text-decoration: none;
+}
+
+div{
+    margin: 5% auto;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.demo1 {
+	border-left: 2px solid #33B8EC;
+	border-top: 2px solid #33B8EC;
+	border-right: 3px solid #000;
+	border-bottom: 3px solid #000;  
+}
+
+.to {
+  text-shadow: 1px 1px 1px black,-1px -1px 1px white;
+}
+
+  .footer{
+        height: 150px;
+        text-align: center;
+        font-size: 16px;
+        padding: 0px 100px;
+        position: relative;
+    }
+    .footer{
+      cursor: pointer;
+    }
+    .copyright{
+      font-size: 12px;
+    }
+    .info{
+      font-size: 14px;
+      color: #72767b;
+      line-height: 25px;
+    }
+    .footer .scroll{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border:2px solid #eaeaea;
+      /* background-color: rgba(216, 16, 109,0.6); */
+      position: absolute;
+      left: 5%;
+      top: -25px;
+      z-index: 10;
+      animation: scrollA infinite 20s linear alternate;
+    }
+    @keyframes scrollA {
+      0% {left: 5%;transform: rotate(180deg);};
+      10% {left: 5%;transform: rotate(270deg);}
+      20% {left: 5%;transform: rotate(450deg);}
+      25% {left: 10%;transform: rotate(540deg);}
+      30% {left: 20%;transform: rotate(720deg);}
+      35% {left: 30%;transform: rotate(900deg);}
+      40% {left: 40%;transform: rotate(1080deg);}
+      45% {left: 50%;transform: rotate(1260deg);}
+      50% {left: 60%;transform: rotate(1440deg);}
+      55% {left: 70%;transform: rotate(1620deg);}
+      60% {left: 80%;transform: rotate(1800deg);}
+      80% {left: 90%;transform: rotate(2610deg);}
+      90% {left: 90%;transform: rotate(2340deg);}
+      100% {left: 90%;transform: rotate(2520deg);}
+    }
+
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a class="active demo1 to">ViudiraTech</a></li>
+    <li><a href="#products-system">操作系统</a></li>
+    <li><a href="#products-paswsoft">文件加解密程序</a></li>
+    <li><a href="#products-8088">8088核心扩展板</a></li>
+    <li><a href="#products-6502">6502微型计算机</a></li>
+    <li><a href="index.html">回去</a></li>
+</ul>
+
+<div class="card demo1">
+    <h3 class="card-title">ViudiraTech社区的产品：</h3>
+	<a name="products-system" style="font-size: 1.6rem;"><strong>操作系统：</strong></a>
+	<p>ViudiraTech社区自主研发的操作系统</p>
+	<video style="display: block; margin: 0 auto;" controls width="700px" height="400px">
+	<source src="./rec/VimdropOSNext.mp4" type="video/mp4" >
+	</video>
+	<p>初代版本以源代码方式发布而非镜像<strong>-已停止支持</strong><a href="https://github.com/ViudiraTech/VimdropOS"><strong> -- 获取源码</strong></a></p>
+	<p>VimdropOS v0.5.0b<strong>-2024年5月停止支持</strong><a href="./rec/VimdropOS-0.5.0.zip"><strong> -- 获取镜像</strong></a></p>
+    <p>VimdropOS v1.0.0b<a href="./rec/VimdropOS-1.0.0.zip"><strong> -- 获取镜像</strong></a></p>
+    <p>VimdropOS-Next最新公共测试版本<a href="./rec/VimdropOS-Next.zip"><strong> -- 获取镜像</strong></a></p>
+	<p></p>
+	<div></div>
+	
+	<a name="products-paswsoft" style="font-size: 1.6rem;"><strong>文件加解密程序：</strong></a>
+	<img alt="" src="./rec/paswsoft.png" style="display: block; margin: 0 auto;" width="700px" height="400px"/>
+	<p>本软件专为数据传输安全考虑的。采用基础的加密方式，破解难度高，并且可以自己设置加密密码，与市面大部分破解工具脱离关系。</p>
+	<p>因加密解密和文件修改创建操作，会被杀毒软件杀掉，这是正常的。目前作者也没有什么解决办法，将就着用吧。本软件不属于病毒，如果误报可以添加白名单。
+	加密生成的文件不会报毒。如果下载报毒可以换一个下载方式。</p>
+	<p>ViudiraTech-文件加解密程序<a href="./rec/paswsoft.zip"><strong> -- 下载软件</strong></a></p>
+	<div></div>
+
+	<a name="products-8088" style="font-size: 1.6rem;"><strong>8088核心扩展板：</strong></a>
+	<p>待完成的产品，待订货</p>
+	<div></div>
+	
+	<a name="products-6502" style="font-size: 1.6rem;"><strong>6502微型计算机：</strong></a>
+	<p>待完成的产品,目前拥有他的预览照片：</p>
+	<img alt="" src="./rec/PC.jpg" style="display: block; margin: 0 auto;" width="700px" height="400px"/>
+</div>
+
+<div class='footer'>
+      <span class="scroll"></span>
+      <!-- <span id="star-five" class="scroll"></span> -->
+      <el-divider></el-divider>
+      <span>网站中的所有商标等均由ViudiraTech所有</span>
+      <el-divider direction="vertical"></el-divider>
+      <br/>
+      <br/>
+      <span class="copyright">Copyright 2020-2024 ViudiraTech,保留所有权利.</span>
+      <el-drawer
+        :visible.sync="drawer"
+        :direction="direction"
+        :before-close="handleClose">
+        <p class='info'>
+          <i class="el-icon-phone"></i>需要更多信息请咨询我们<br/>
+          <i class="el-icon-message"></i>每个计算机科技爱好者的聚集之地<br/>
+        </p>
+      </el-drawer>
+	</div>
+</body>
+</html>
